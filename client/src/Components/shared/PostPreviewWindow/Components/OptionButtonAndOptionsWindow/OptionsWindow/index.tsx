@@ -5,9 +5,7 @@ import { ToggleColumn } from '../styled/ToggleColumn.styled'
 
 interface Props {
     IsActive: boolean
-    data: {
-        PostOwnerId: string
-    }
+    data: any
 }
 export const OptionsWindow = (props: Props) => {
 
