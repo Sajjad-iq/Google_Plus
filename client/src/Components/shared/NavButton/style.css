@@ -1,0 +1,49 @@
+.link-button {
+    width: 100%;
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer {
+    flex-direction: column;
+    padding: 0;
+}
+
+.link-button:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.name {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-icon {
+    font-size: 1.4rem;
+    width: 30px;
+    margin: 5px;
+}
+
+.active {
+    color: rgb(198, 62, 62);
+}
+
+.NAV {
+    padding: 0;
+    color: gray;
+}
+
+@media(min-width:768px) {
+    .name {
+        font-size: 1.2rem;
+    }
+
+}

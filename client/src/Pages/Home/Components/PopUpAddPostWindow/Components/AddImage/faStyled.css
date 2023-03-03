@@ -1,0 +1,9 @@
+.add-post-fa-icon {
+    font-size: 1.5rem;
+}
+
+@media(min-width:768px) {
+    .add-post-fa-icon {
+        font-size: 2rem;
+    }
+}

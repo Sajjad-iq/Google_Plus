@@ -1,0 +1,22 @@
+.fa-error {
+    font-size: 1rem;
+    color: rgb(198, 62, 62);
+}
+
+@media(min-width:768px) {
+    .fa-error {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:1024px) {
+    .fa-error {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:1440px) {
+    .fa-error {
+        font-size: 1rem;
+    }
+}
